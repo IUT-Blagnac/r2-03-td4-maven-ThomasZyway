@@ -4,7 +4,11 @@
  * @author LC
  */
 class HelloJava {
-	public afficherCancan(){
-
+	public static void afficherCancan(){
+		System.out.println("thomas");
+	}
+	
+	public static void main(String[] argv){
+		afficherCancan();
 	}
 }
